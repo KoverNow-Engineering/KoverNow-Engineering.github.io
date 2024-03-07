@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Kovernow</title>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/gh/davidshimjs/qrcodejs/qrcode.min.js"
+    ></script>
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <div id="qrcode-container" class="qrcode-container">
+      <div class="qrcode-main-area">
+        <h1 class="scan-text">Scan to download the app</h1>
+        <div id="qrcode" class="qrcode"></div>
+        <h3 class="or-text">--OR--</h3>
+        <div class="download-button-container">
+          <img
+            class="app-store-button"
+            src="../assets/app-store-download-button.svg"
+            alt="App Store Download Button"
+          />
+          <img
+            class="google-play-button"
+            src="../assets/google-play-badge.png"
+            alt="Google Play Download Button"
+          />
+        </div>
+      </div>
+      <img class="app-image" src="../assets/app-image.png" alt="App Image" />
+    </div>
+    <div id="mobile-container" class="mobile-container">
+      <img
+        src="../assets/kovernow-icon.png"
+        alt="KoverNow icon"
+        class="kovernow-icon"
+      />
+
+      <div class="download-app-info-container">
+        <h2 class="get-app-text">Get KoverNow!</h2>
+        <div class="center-text">Clicking below will copy this page</div>
+        <div class="center-text">
+          You will be redirected to this page in the app
+        </div>
+        <img
+          src="../assets/arrow-down.svg"
+          alt="Arrow down icon"
+          class="arrow-down-icon"
+        />
+      </div>
+      <div id="downloadButton" class="btn-download"></div>
+      <img
+        class="mobile-app-image"
+        src="../assets/app-image.png"
+        alt="App Image"
+      />
+    </div>
+  </body>
+</html>
