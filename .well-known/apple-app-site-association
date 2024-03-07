@@ -1,0 +1,19 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "ULN3AWF5V3.com.kovernow.ludwig",
+        "paths": [
+          "*"
+        ]
+      },
+      {
+        "appID": "ULN3AWF5V3.com.kovernow.ludwig.dev",
+        "paths": [
+          "*"
+        ]
+      }
+    ]
+  }
+}
