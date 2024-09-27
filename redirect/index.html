@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Redirecting...</title>
+    <script type="text/javascript">
+        window.onload = function () {
+            // Parse the URL query parameters
+            var params = new URLSearchParams(window.location.search);
+            var scheme = params.get('scheme');
+            var content = params.get('content');
+
+            // Build the custom URI scheme
+            if (scheme && content) {
+                uriScheme = `${scheme}://kovernow/deep-link?content=${content}`;
+                // Redirect to the app-specific URI
+                window.location.replace(uriScheme);
+            }
+        }
+    </script>
+</head>
+
+<body>
+    Redirecting...
+</body>
+
+</html>
